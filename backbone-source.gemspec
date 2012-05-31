@@ -4,8 +4,8 @@ require File.expand_path('../lib/backbone-source/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Matt Diebolt"]
   gem.email         = ["mdiebolt@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{An asset gem, allowing you to include the latest version of Backbone}
+  gem.summary       = %q{Backbone as a gem}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
