@@ -2,9 +2,9 @@ require "backbone-source/version"
 
 # Sneaky require for Rails engine environment
 if defined? ::Rails::Engine
-  require "underscore-source/rails"
+  require "backbone-source/rails"
 elsif defined? ::Sprockets
-  require "underscore-source/sprockets"
+  require "backbone-source/sprockets"
 end
 
 module Backbone
